@@ -1230,7 +1230,7 @@ summary {
   color: #2196f3;
 }
 
-.modal__name:not(:placeholder-shown) ~ .modal-text {
+.modal__name:not(:placeholder-shown) ~ .modal__text {
   -webkit-transform: translate(-22px, -40px);
           transform: translate(-22px, -40px);
 }
@@ -1274,6 +1274,11 @@ summary {
   -webkit-transform: translateY(-32px);
           transform: translateY(-32px);
   color: #2196f3;
+}
+
+.modal__comments:not(:placeholder-shown) ~ .modal__comments--name {
+  -webkit-transform: translate(-20px, -35px);
+          transform: translate(-20px, -35px);
 }
 
 .modal__agreement {

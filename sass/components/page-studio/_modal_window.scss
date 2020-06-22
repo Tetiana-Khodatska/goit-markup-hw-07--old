@@ -108,7 +108,7 @@
 	color: $accent-color;
 }
 
-.modal__name:not(:placeholder-shown) ~ .modal-text {
+.modal__name:not(:placeholder-shown) ~ .modal__text {
 	transform: translate(-22px, -40px);
 }
 
@@ -150,6 +150,10 @@
 .modal__label:focus-within > .modal__comments--name {
 	transform: translateY(-32px);
 	color: $accent-color;
+}
+
+.modal__comments:not(:placeholder-shown) ~ .modal__comments--name {
+	transform: translate(-20px, -35px);
 }
 
 .modal__agreement {
