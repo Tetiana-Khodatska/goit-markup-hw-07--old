@@ -1,6 +1,7 @@
 .logo {
 	text-decoration: none;
 	margin-right: 85px;
+	font-family: $logo-font;
 
 	&__first {
 		padding-top: 24px;
@@ -17,7 +18,7 @@
 		padding-top: 24px;
 		padding-bottom: 25px;
 		color: $logo-color;
-		font-family: Raleway;
+		font-family: $logo-font;
 		font-weight: 700;
 		font-size: 26px;
 		line-height: 1.2;

@@ -258,13 +258,14 @@ summary {
 .logo {
   text-decoration: none;
   margin-right: 85px;
+  font-family: Raleway, sans-serif;
 }
 
 .logo__first {
   padding-top: 24px;
   padding-bottom: 25px;
   color: #2196f3;
-  font-family: "Raleway, sans-serif";
+  font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 26px;
@@ -275,7 +276,7 @@ summary {
   padding-top: 24px;
   padding-bottom: 25px;
   color: #000000;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -461,7 +462,7 @@ summary {
 
 .footer-nav__logo-accent {
   color: #ffffff;
-  font-family: "Raleway, sans-serif";
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
